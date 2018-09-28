@@ -1,0 +1,22 @@
+{
+  "name": "why-no-hours-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "sopranolinist",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "dotenv": "^6.0.0",
+    "hapi": "^17.6.0",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-auth-jwt2": "^8.1.0",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2"
+  }
+}

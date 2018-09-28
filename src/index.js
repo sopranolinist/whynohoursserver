@@ -12,7 +12,7 @@ dotenv.config();
 
 const server = Hapi.server({
     port: process.env.PORT || 3000,
-    host: process.env.HOSTNAME || 'localhost',
+    host: process.env.HOST || 'localhost',
     routes: {cors: true}
 });
 

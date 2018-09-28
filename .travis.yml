@@ -4,3 +4,9 @@ node_js:
 cache:
   directories:
     - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: "RDf0NQXFkLxDeDJnGmsgPb3apHb75qJwDhXXDlQwgAOmpNKIV2KTFZNr5F8Qmp6WNYJAfOcz9Wl2uPmp0M8ZsXO5rd2pODSgJAmXwd4Gs9eVOEtfxBV12j4SdkZy6VoPwqde1oIZ1Z6Mtb0W9wbAS6UaTAG6wMDn+55iEcFq1Bz4RKjFAJu65kg933+gwi/2eB30YUwf5+06e/VufU5qMDYaO+66Z++WddX3BH5VYx4QUEeYSfej+MO18MTuBxlLfkKOPp6LVRXKRQ4G4m/jcpWN1sP6O1Yh6AcM+ukQ2iC7QZ13rZ203hdPDwXDhgYFzuV//oHquk/SyGkAzOya4YHR2QuPpBlMF+I5cse5YlKa7Vo/7IVhPoJ8EWkhFNlzrsEhLF+oNJw7rOx3B8MpkMjmObKx4QKdWHI3UnyUz0j1XkXZh0krO6PyiY7YqRTN9RfFHIzMlzx8+MDALSFOfoTeC2kujhPT0i/rvCngCrkuOrTTkY3QXGXBH4TT3AmDbNjGOUPImkw9QFDgM2UYicpGPL4XCu9piMelH0desI+SnkubOdOPXOlTuwDE+B0T5loTUNRKwPuypdQU645rqXrithWjLFpNBVcYqXm6F+6y03eLjMnSToEx/KdfHAeYQU0j8cFFG5T4Rj3ok8YpHnm/TL0wkVFekWOqDZ4Wv4E="
+  app:
+    master: whynohoursserver 
